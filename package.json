@@ -2,6 +2,7 @@
   "name": "init",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://oncework.github.io/codeexpander-checkout",
   "dependencies": {
     "@craco/craco": "^6.4.2",
     "cra-template": "1.1.2",
@@ -15,7 +16,8 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test"
+    "test": "craco test",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -37,6 +39,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9",
+    "gh-pages": "^3.2.3",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }

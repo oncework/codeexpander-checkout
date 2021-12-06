@@ -1,6 +1,7 @@
 import loadjs from "loadjs";
 import { useEffect } from "react";
 import "./App.css";
+import logo from "./img/logo.png";
 
 function App() {
   useEffect(() => {
@@ -15,11 +16,11 @@ function App() {
         className="w-full h-16 flex justify-center items-center text-xl"
         style={{ backgroundColor: "#edf2f7", color: "#718096" }}
       >
-        <img className="w-10" src="/logo192.png" alt="Codeexpander" />
+        <img className="w-10" src={logo} alt="Codeexpander" />
         Codeexpander
       </div>
       <div className="my-16 flex justify-center items-center flex-wrap">
-        <img className="w-40" src="/logo192.png" alt="Codeexpander" />
+        <img className="w-40" src={logo} alt="Codeexpander" />
         <div className="mx-20" style={{ color: "#4a5568" }}>
           A cross-platform cloud synchronization development tool for developers
           that includes input enhancement, code snippet management, and
