@@ -2,7 +2,7 @@
   "name": "init",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://oncework.github.io/codeexpander-checkout",
+  "homepage": "http://pay.codeexpander.com/",
   "dependencies": {
     "@craco/craco": "^6.4.2",
     "cra-template": "1.1.2",
